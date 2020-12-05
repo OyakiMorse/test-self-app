@@ -1,0 +1,21 @@
+/* file not required */
+
+.qButton {
+  padding: 10px 20px;
+  margin-right: 15px;
+  font-weight: bold;
+}
+
+.qButton:disabled {
+  background: #ccc;
+  color: #000;
+  cursor: not-allowed;
+}
+
+.Success {
+  background: rgba(161, 240, 49, 0.7);
+}
+
+.Error {
+  background: rgba(240, 87, 108, 0.7);
+}
