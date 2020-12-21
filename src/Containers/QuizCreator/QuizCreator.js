@@ -55,7 +55,7 @@ class QuizCreator extends Component {
   addQuestionHandler = (event) => {
     event.preventDefault()
 
-    const quiz = this.state.quiz.concat()
+    const quiz = this.props.quiz.concat()
     const index = quiz.length + 1
 
     const {
